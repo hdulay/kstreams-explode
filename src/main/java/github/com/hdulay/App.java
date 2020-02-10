@@ -16,28 +16,6 @@ import java.util.List;
 import java.util.Properties;
 import java.util.stream.Stream;
 
-class Data {
-    public String getA() {
-        return a;
-    }
-
-    public void setA(String a) {
-        this.a = a;
-    }
-
-    String a;
-
-    public String getB() {
-        return b;
-    }
-
-    public void setB(String b) {
-        this.b = b;
-    }
-
-    String b;
-}
-
 /**
  * Hello world!
  *
