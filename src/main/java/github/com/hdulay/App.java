@@ -51,7 +51,7 @@ public class App
 
         data.print(Printed.toSysOut());
 
-        data.to("faltmapped");
+        data.to("flatmapped");
 
 
         KafkaStreams streams = new KafkaStreams(builder.build(), props);
