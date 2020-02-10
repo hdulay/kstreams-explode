@@ -27,8 +27,8 @@ public class App
         StreamsBuilder builder = new StreamsBuilder();
 
         Properties props = new Properties();
-        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "explode-example");
-        props.put(StreamsConfig.CLIENT_ID_CONFIG, "explode-example");
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "flatmap-example");
+        props.put(StreamsConfig.CLIENT_ID_CONFIG, "flatmap-example");
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         props.put("schema.registry.url", "localhost:8081");
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass().getName());
