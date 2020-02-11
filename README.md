@@ -2,6 +2,10 @@
 
 This project shows how to write a KStreams application to create new records from a single message using flatmap
 
+## Diagram
+![diagram](./diagram.png)
+
+## Start Confluent Platform
 
 ```bash
 make cluster
